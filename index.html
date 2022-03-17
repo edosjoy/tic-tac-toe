@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="first-div" data-one="one" data-two="two" data-three="three"></div>
+
+<div class="playing-field">
+    <div class="game-cage" id="0"></div>
+    <div class="game-cage" id="1"></div>
+    <div class="game-cage" id="2"></div>
+    <div class="game-cage" id="3"></div>
+    <div class="game-cage" id="4"></div>
+    <div class="game-cage" id="5"></div>
+    <div class="game-cage" id="6"></div>
+    <div class="game-cage" id="7"></div>
+    <div class="game-cage" id="8"></div>
+</div>
+
+<div class="message">Ходит: <span class="who"></span></div>
+<div class="message-winner display-none">Выиграл: <span class="who-winner"></span></div>
+<div class="message-draw display-none">Ничья</div>
+
+<button class="start-over">Начать с начала</button>
+
+<div class="statistic">
+    <p class="string">Выиграл <span class="string-x">Х</span>: <span class="statistic-x">0</span></p>
+    <p class="string">Выиграл <span class="string-o">O</span>: <span class="statistic-o">0</span></p>
+    <p class="string">Ничья: <span class="statistic-xo">0</span></p>
+    <button class="clear-statistic">Очистить статистику</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

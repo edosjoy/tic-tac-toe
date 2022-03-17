@@ -1,0 +1,67 @@
+.playing-field {
+    border: 1px solid #000;
+    width: 156px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px auto;
+}
+
+.game-cage {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.game-cage:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+}
+
+.message, .message-winner, .message-draw {
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+button.start-over {
+    margin-top: 10px;
+    position: relative;
+    left: 46%;
+}
+
+.statistic {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #000;
+    width: 150px;
+    padding: 10px;
+}
+
+p.string {
+    line-height: 200%;
+}
+
+span.string-x, span.string-o {
+    font-family: Arial;
+    font-weight: 700;
+}
+
+span.statistic-x, span.statistic-o, span.statistic-xo {
+    text-decoration: underline;
+}
+
+.clear-statistic {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.display-none {
+    display: none;
+}
