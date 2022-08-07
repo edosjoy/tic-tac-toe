@@ -1,4 +1,4 @@
-Tic tac toe
+# Tic tac toe
 
 Игра "Крестики-нолики" https://edosjoy.github.io/tic-tac-toe/
 
