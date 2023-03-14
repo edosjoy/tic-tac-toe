@@ -1,6 +1,6 @@
 # Tic tac toe
 
-Игра "Крестики-нолики" https://edosjoy.github.io/tic-tac-toe/
+Игра "Крестики-нолики", deploy: https://edosjoy.github.io/tic-tac-toe/
 
 Одна из учебных задач
 
